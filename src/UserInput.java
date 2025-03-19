@@ -37,7 +37,7 @@ public class UserInput {
         int numDPS = getValidNumber(scanner, "Enter number of DPS (must be at least 3 for a party): ", MAX_DPS);
 
         while (numDPS < 3) {
-            System.out.println("❌ Invalid! You need at least 3 DPS players for a party.");
+            System.out.println("Invalid! You need at least 3 DPS players for a party.");
             numDPS = getValidNumber(scanner, "Enter number of DPS (must be at least 3 for a party): ", MAX_DPS);
         }
 
